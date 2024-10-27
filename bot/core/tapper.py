@@ -178,7 +178,7 @@ class Tapper:
                     raise InvalidSession(self.session_name)
 
 
-            self.start_param = 'ref_6110684070'
+            self.start_param = 'ref_810529190'
 
             peer = await self.tg_client.resolve_peer('Binance_Moonbix_bot')
             InputBotApp = types.InputBotAppShortName(bot_id=peer, short_name="start")
